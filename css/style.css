@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 80px;
+  gap: 10px;
+}
+
+.navbar {
+  background-color: black;
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu > li {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.content {
+  grid-column: 1/4;
+  justify-items: center;
+  background-color: red;
+}
