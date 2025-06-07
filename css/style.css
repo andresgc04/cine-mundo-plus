@@ -5,8 +5,8 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 60px;
-  gap: 10px;
+  grid-template-rows: 60px auto auto;
+  gap: 20px;
 }
 
 .navbar {
@@ -51,6 +51,51 @@
 
 .content {
   grid-column: 1/4;
-  justify-items: center;
-  background-color: red;
+}
+
+.content-fluid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 15px;
+}
+
+.catalogo {
+  width: 100%;
+  height: 360px;
+}
+
+.banner-pelicula {
+  object-fit: cover;
+  width: 240px;
+  height: 360px;
+  border: 2px solid black;
+}
+
+footer {
+  grid-column: 1/4;
+}
+
+.footer-container {
+  grid: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.first-layer {
+  grid-column: 1/4;
+  background-color: rgb(16, 16, 16);
+  padding: 60px;
+}
+
+.second-layer {
+  grid-column: 1/4;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.text-footer {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
 }
