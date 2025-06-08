@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cine Mundo Plus | Series</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <title>Cine Mundo Plus</title>
+    <link rel="stylesheet" href="../css/contactanos.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -61,101 +61,49 @@
 
       <main class="content">
         <div class="content-fluid">
-          <div class="catalogo">
-            <img
-              src="../image/series/sticks-cracks-del-golfs.webp"
-              alt="serie sticks cracks del golfs"
-              class="banner-pelicula"
-              loading="lazy"
-            />
+          <div class="contactanos-form">
+            <form id="contactanosForm" name="contactanosForm" method="POST">
+              <h1 class="titulo-contactanos">Contactanos</h1>
+              <div class="form-group">
+                <label for="correo" class="label">Correo:</label>
+                <input
+                  type="email"
+                  id="correo"
+                  name="correo"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label for="celular" class="label">Celular:</label>
+                <input
+                  type="text"
+                  id="celular"
+                  name="celular"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <label for="mensaje" class="label">Mensaje:</label>
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  rows="15"
+                  class="form-control-text-area"
+                >
+                </textarea>
+              </div>
+              <button type="submit" class="submit-button">Enviar</button>
+            </form>
           </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/buen-chico.webp"
-              alt="serie buen chico"
-              class="banner-pelicula"
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.3874846982458!2d-70.36612181925241!3d18.869883636635794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eafe171d65a8169%3A0x3dcb56cfe6ae24db!2sNetflix%20disponible!5e0!3m2!1ses-419!2sdo!4v1749417338287!5m2!1ses-419!2sdo"
+              class="ubicacion"
+              style="border: 0"
+              allowfullscreen=""
               loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/sirenas.webp"
-              alt="serie sirenas"
-              class="banner-pelicula"
-              loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/tierra-de-mafias.webp"
-              alt="serie tierra de mafia"
-              class="banner-pelicula"
-              loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/sex-and-the-city.webp"
-              alt="serie sex and the city"
-              class="banner-pelicula"
-              loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/nuestro-seul-por-descubrir.webp"
-              alt="serie nuestro seul por descubrir"
-              class="banner-pelicula"
-              loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/querido-hongrang.webp"
-              alt="serie querido hongrang"
-              class="banner-pelicula"
-              loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/love-death-love.webp"
-              alt="serie love, death + love"
-              class="banner-pelicula"
-              loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/los-secretos-que-ocultamos.webp"
-              alt="serie los secretos que ocultamos"
-              class="banner-pelicula"
-              loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/nueve-perfectos-desconocidos.webp"
-              alt="serie nueve perfectos desconocidos"
-              class="banner-pelicula"
-              loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/juegos-de-tronos.webp"
-              alt="serie juegos de tronos"
-              class="banner-pelicula"
-              loading="lazy"
-            />
-          </div>
-          <div class="catalogo">
-            <img
-              src="../image/series/apuesta.webp"
-              alt="serie apuesta"
-              class="banner-pelicula"
-              loading="lazy"
-            />
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </main>
